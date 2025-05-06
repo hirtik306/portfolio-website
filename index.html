@@ -22,13 +22,12 @@
             </ul>
         </div>
     </nav>
+
     <nav id="hamburger-nav">
         <div class="logo">Hirtik Kumar</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span></span><span></span><span></span>
             </div>
             <div class="menu-links">
                 <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -38,6 +37,7 @@
             </div>
         </div>
     </nav>
+
     <section id="profile">
         <div class="section__pic-container">
             <img src="hk.jpg" />
@@ -45,14 +45,10 @@
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
             <h1 class="title">Hirtik Kumar</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p2">Full Stack Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('Hirtik Resume.pdf')">
-            Download CV
-          </button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Contact Info
-          </button>
+                <button class="btn btn-color-2" onclick="window.open('resume_hirtik_kumar.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
                 <img src="linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/hirtikkumar/'" />
@@ -60,19 +56,20 @@
             </div>
         </div>
     </section>
+
     <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="hkk.jpg" alt="Profile picture" class="about-pic" />
+                <img src="k.jpg" alt="Profile picture" class="about-pic" />
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="experience.png" alt="Experience icon" class="icon" />
                         <h3>Experience</h3>
-                        <p>2+ years <br />Frontend Development</p>
+                        <p>2+ years<br />Full Stack Development</p>
                     </div>
                     <div class="details-container">
                         <img src="education.png" alt="Education icon" class="icon" />
@@ -82,14 +79,15 @@
                 </div>
                 <div class="text-container">
                     <p>
-                        My name is Hirtik Kumar. I work on web development and specialize in HTML, CSS, and JavaScript. Currently, I am learning React and backend development with Node.js. I am also interested in cybersecurity and penetration testing, dedicating time daily to
-                        improve my skills. My goal is to become a full-stack developer and work on advanced web applications. I love exploring new technologies and continuously improving my coding abilities.
+                        My name is Hirtik Kumar. I work as a full stack web developer and specialize in HTML, CSS, JavaScript, React, Node.js, and Express. I'm also familiar with databases like MongoDB and SQL. Currently, I’m learning more about backend systems and improving
+                        my skills in cybersecurity and penetration testing. My goal is to build advanced, secure web applications.
                     </p>
                 </div>
             </div>
         </div>
         <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
     </section>
+
     <section id="experience">
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
@@ -99,65 +97,78 @@
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
                                 <h3>HTML</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
                                 <h3>CSS</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
-                                <h3>React js</h3>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" class="icon" />
+                            <div>
+                                <h3>React.js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend & Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="checkmark.png" class="icon" />
+                            <div>
+                                <h3>Node.js</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
+                                <h3>Express.js</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
-
-                    </div>
-                </div>
-                <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
-                    <div class="article-container">
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="checkmark.png" class="icon" />
                             <div>
                                 <h3>SQL</h3>
                                 <p>Basic</p>
                             </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
-                                <h3>Node JS</h3>
+                                <h3>Git & GitHub</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
+                            <img src="checkmark.png" class="icon" />
                             <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Git</h3>
-                                <p>Intermediate</p>
+                                <h3>Cybersecurity</h3>
+                                <p>Learning</p>
                             </div>
                         </article>
                     </div>
@@ -166,6 +177,10 @@
         </div>
         <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
+
+    <!-- Project and contact sections remain same -->
+    <!-- Continue from your original HTML from here onward -->
+
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
@@ -173,49 +188,46 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="project-1.png" alt="Project 1" class="project-img" />
+                        <img src="project-1.png" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-
+                    <h2 class="experience-sub-title project-title">React Portfolio Website</h2>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="project-2.png" alt="Project 2" class="project-img" />
+                        <img src="project-2.png" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-
+                    <h2 class="experience-sub-title project-title">Node.js Authentication App</h2>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="project-3.png" alt="Project 3" class="project-img" />
+                        <img src="project-3.png" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-
+                    <h2 class="experience-sub-title project-title">Full Stack Blog Platform</h2>
                 </div>
             </div>
         </div>
         <img src="arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
+
     <section id="contact">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:examplemail@gmail.com">hirtikkumar001288@gmail.com</a></p>
+                <img src="email.png" class="icon contact-icon email-icon" />
+                <p><a href="mailto:hirtikkumar001288@gmail.com">hirtikkumar001288@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p><a href="//www.linkedin.com/in/hirtikkumar/">LinkedIn</a></p>
-
+                <img src="linkedin.png" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com/in/hirtikkumar/">LinkedIn</a></p>
             </div>
-            <div class="contact-info-container"></div>
-            <img src="images.png" class="icon contact-icon" />
-            <a href="https://wa.me/923353825584" target="_blank">Chat on WhatsApp</a>
-
-        </div>
+            <div class="contact-info-container">
+                <img src="images.png" class="icon contact-icon" />
+                <p><a href="https://wa.me/923353825584" target="_blank">WhatsApp</a></p>
+            </div>
         </div>
     </section>
+
     <footer>
         <p>Copyright &#169; 2025 Hirtik Kumar. All Rights Reserved.</p>
     </footer>
